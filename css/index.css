@@ -1,0 +1,225 @@
+body {
+    margin: 0 8px 8px 8px;
+}
+
+.header-title {
+    margin-top: 0;
+    display: flex;
+}
+
+.text-header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-header h2 {
+    font-size: 50px;
+}
+
+.text-header h1 {
+    font-size: 80px;
+}
+
+.reason-title {
+    text-align: center;
+}
+
+.reasons-to-watch {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    background-color: black;
+}
+
+.reasons-to-watch a {
+    color: white;
+}
+
+.reason-image {
+    max-width: 800px;
+    max-height: 440px;
+    flex-shrink: 3;
+    width: auto;
+    height: auto;
+}
+
+#history-reason {
+    display: flex;
+}
+
+#history-reason p {
+    font-size: 25px;
+    font-family: serif;
+    align-self: center;
+    margin: 20px;
+}
+
+#characters-reason {
+    display: flex;
+}
+
+#characters-reason p {
+    font-family: serif;
+    font-size: 25px;
+    align-self: center;
+    margin: 20px;
+}
+
+#recognition-reason {
+    display: flex;
+}
+
+#recognition-reason p {
+    font-family: serif;
+    font-size: 25px;
+    align-self: center;
+    margin: 20px;
+}
+
+.signup-footer {
+    margin-top: 10px;
+    display: flex;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+#formulario h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+}
+
+.form-control {
+    align-self: center;
+    font-size: 25px;
+    border-style: solid;
+    width: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (min-width: 850px) and (max-width: 1200px) {
+    .header-title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reasons-to-watch {
+        display: flex;
+        font-size: 40px;
+        height: auto;
+    }
+
+    #history-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #characters-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #characters-reason img {
+        order: -1;
+    }
+
+    #recognition-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reason-title {
+        font-size: 50px;
+    }
+
+    .reason-image {
+        align-self: center;
+    }
+
+    #formulario h1 {
+        order: -2;
+    }
+
+    #formulario .hidden {
+        order: -1;
+    }
+}
+
+@media (max-width: 850px) {
+    .header-title {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-title img {
+        height: 600px;
+    }
+
+    .reasons-to-watch {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .reasons-to-watch a {
+        font-size: 100px;
+    }
+
+    .reason-title {
+        font-size: 90px;
+        margin-bottom: 10px;
+    }
+
+    #history-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #characters-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #recognition-reason {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #characters-reason img {
+        order: -1;
+    }
+
+    .reason-image {
+        align-self: center;
+    }
+
+    .signup-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup-footer h1 {
+        font-size: 45px;
+    }
+
+    .form-control {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    #formulario h1 {
+        order: -2;
+    }
+
+    #formulario .hidden {
+        order: -1;
+    }
+}

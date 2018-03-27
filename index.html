@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Wire</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <img id="page-start" src="img/wire.jpg" alt="Imagem da série The Wire">
+            <div class="text-header">
+                <h2>
+                    Por que você deveria estar vendo
+                </h2>
+                <h1>
+                    The Wire
+                </h1>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="reasons-to-watch">
+            <a href="#history-reason">História</a>
+            <a href="#characters-reason">Personagens</a>
+            <a href="#recognition-reason">Reconhecimento</a>
+        </div>
+    </nav>
+    <section>
+        <h1 class="reason-title"> História </h1>
+        <div id="history-reason">
+            <img src="img/reason-1.jpg" class="reason-image" alt="Imagem de personagens da série de The Wire">
+            <p>
+                Cada temporada da série introduz uma nova perspectiva e sua relação com a policia, mas mantendo os personagens
+                e avançando a história. As perspectivias em ordem cronológica são: A guerra com as drogas, o porto maritimo, o
+                governo e a burocracia, escola e educação e por fim o jornalismo. Apesar de ser uma série policial, ela é
+                muito realista e não contem tiroteios por episódio como outras, e sim mostram como as um policial, politico,
+                juiz e até traficantes são comprometidos e afetados pelas instituições onde eles pertencem.
+            </p>
+        </div>
+        <h1 class="reason-title"> Personagens </h1>
+        <div id="characters-reason">
+            <p>
+                Os personagens da série são diversos e todos tem personalidade própria, sem cliches ou estereotipos. Ao contrário
+                de muitas séries, não existe personagens vilões e heróis, mas sim pessoas sofrendo e lidando com as consequências
+                das vidas que lhe foram impostas, sem contar que a série não tem medo de matar personagens "principais" pela
+                realidade da história. Além disso, muitos dos atores e atrizes que fizeram a série continuaram suas carreiras e
+                hoje estão em grandes produções, como Michael B. Jordan (Pantera Negra), Idris Elba (A torre negra), Aiden Gillen
+                (Game of Thrones) entre vários outros exemplos.
+            </p>
+            <img src="img/reason-2.jpg" class="reason-image" alt="Imagem de personagens da série de The Wire">
+        </div>
+        <h1 class="reason-title"> Reconhecimento </h1>
+        <div id="recognition-reason">
+            <img src="img/reason-3.jpg" class="reason-image" alt="Imagem de personagens da série de The Wire">
+            <p>
+                Apesar de no seu tempo de exibição não ter recebido muitos premios ou ter uma audiência muito alta, não há
+                uma lista de melhores séries de todos os tempos onde The Wire não esteja inclusa. A qualidade da história e do
+                elenco é inegável. Atualmente é considerada uma das melhores séries de todos os tempos, ao lado de Breaking Bad,
+                The Sopranos e algumas outras. Se você é daquelas pessoas que adora ver filmes clássicos, veja The Wire, pois é
+                uma obra prima da televisão.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div class="signup-footer">
+            <video class="video-giphy" autoplay loop src="img/giphy.mp4"></video>
+            <form id="formulario" onsubmit="adicionaDados(event)">
+                <h1> Ficou interessado? Não fique para trás, assine nossa newsletter, receba promoções exclusivas
+                e se atualize em uma das melhores séries do século 21</h1>
+                <input class="form-control" type="text" placeholder="Digite seu nome" id="nome">
+                <input class="form-control" type="email" placeholder="Digite seu email" id="email">
+                <button class="form-control" type="submit" id="submit-button">Enviar</button>
+                <h1 class="onsuccess hidden"> Cadastrado realizado com sucesso </h1>
+                <h1 class="onfailure hidden"> Email já cadastrado </h1>
+            </form>
+        </div>
+    </footer>
+    <script src="js/save-info.js"></script>
+</body>
+</html>
